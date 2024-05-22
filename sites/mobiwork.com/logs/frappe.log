@@ -1,0 +1,9 @@
+2024-05-20 15:01:57,120 ERROR frappe New Exception collected in error log
+Site: mobiwork.com
+Form Dict: {'doc': '{"name":"s6qhtvirsa","owner":"Administrator","creation":"2024-05-20 14:58:51.333398","modified":"2024-05-20 14:58:51.333398","modified_by":"Administrator","docstatus":0,"idx":0,"child_doc_name":"dd","parent_doc_link":null,"parent_full_name":null,"parent_age":0,"parent_present_address":null,"button":null,"doctype":"Child Doc","parent_date_and_values":[],"__last_sync_on":"2024-05-20T07:58:51.345Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-20 15:02:11,982 ERROR frappe New Exception collected in error log
+Site: mobiwork.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Child Doc","name":"new-child-doc-qntxnsuain","__islocal":1,"__unsaved":1,"owner":"Administrator","parent_date_and_values":[],"child_doc_name":"d"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-20 15:03:34,899 ERROR frappe New Exception collected in error log
+Site: mobiwork.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Child Doc","name":"new-child-doc-qntxnsuain","__islocal":1,"__unsaved":1,"owner":"Administrator","parent_date_and_values":[],"child_doc_name":"d"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

@@ -1,0 +1,3 @@
+2024-05-21 10:15:10,532 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '2024-05-21 09:13:42.763372', 'cmd': 'frappe.desk.form.load.getdoctype'}

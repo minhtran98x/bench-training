@@ -1,0 +1,61 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "programing_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "04f5795763defb0503345763d7cc556da6955d97",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "library_management": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "80d8cfb21858194af0389e3214699735cfe1b07d",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "frappe_actions": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "892c3d7154b59dd59189a9181a1941234aeb822d",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "74553e578ba6467512008d67bece82de34324471",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "appointments_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fa5c0a0dec3099cd64884d543d3dfe3ec2757937",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    }
+}

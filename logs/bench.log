@@ -1,0 +1,145 @@
+2024-05-20 09:53:48,931 DEBUG cd programing_bench && python3 -m venv env
+2024-05-20 09:53:50,637 DEBUG cd programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-05-20 09:53:51,869 DEBUG cd programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet wheel
+2024-05-20 09:53:52,654 LOG Getting frappe
+2024-05-20 09:53:52,654 DEBUG cd programing_bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-05-20 09:53:58,683 LOG Installing frappe
+2024-05-20 09:53:58,683 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/frappe 
+2024-05-20 09:54:22,899 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/frappe && yarn install --check-files
+2024-05-20 09:54:35,730 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-20 09:54:35,731 DEBUG cd programing_bench && bench build
+2024-05-20 09:54:35,792 INFO /home/fong/.local/bin/bench build
+2024-05-20 09:54:47,815 LOG setting up backups
+2024-05-20 09:54:47,827 LOG backups were set up
+2024-05-20 09:54:47,827 INFO Bench programing_bench initialized
+2024-05-20 09:54:48,139 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-20 09:58:41,639 INFO /home/fong/.local/bin/bench new-site code.in
+2024-05-20 09:59:36,488 INFO /home/fong/.local/bin/bench start
+2024-05-20 09:59:36,746 INFO /home/fong/.local/bin/bench watch
+2024-05-20 09:59:36,747 INFO /home/fong/.local/bin/bench worker
+2024-05-20 09:59:36,755 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-20 09:59:36,760 INFO /home/fong/.local/bin/bench schedule
+2024-05-20 10:00:31,512 INFO /home/fong/.local/bin/bench new-site bench.com
+2024-05-20 10:01:25,781 INFO /home/fong/.local/bin/bench new-site mobiwork.com
+2024-05-20 10:01:50,275 INFO /home/fong/.local/bin/bench start
+2024-05-20 10:01:50,433 INFO /home/fong/.local/bin/bench schedule
+2024-05-20 10:01:50,434 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-20 10:01:50,456 INFO /home/fong/.local/bin/bench watch
+2024-05-20 10:01:50,458 INFO /home/fong/.local/bin/bench worker
+2024-05-20 10:05:05,158 INFO /home/fong/.local/bin/bench new-app programing_app
+2024-05-20 10:05:05,161 LOG creating new app programing_app
+2024-05-20 10:05:41,379 LOG Installing programing_app
+2024-05-20 10:05:41,380 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/programing_app 
+2024-05-20 10:05:42,886 DEBUG bench build --app programing_app
+2024-05-20 10:05:42,947 INFO /home/fong/.local/bin/bench build --app programing_app
+2024-05-20 10:05:43,770 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-20 10:05:44,037 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-20 10:10:40,832 INFO /home/fong/.local/bin/bench --site mobiwork.com install-app programing_app
+2024-05-20 10:10:48,877 INFO /home/fong/.local/bin/bench start
+2024-05-20 10:10:49,038 INFO /home/fong/.local/bin/bench watch
+2024-05-20 10:10:49,043 INFO /home/fong/.local/bin/bench schedule
+2024-05-20 10:10:49,063 INFO /home/fong/.local/bin/bench worker
+2024-05-20 10:10:49,065 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-20 10:20:19,165 INFO /home/fong/.local/bin/bench --site mobiwork.com set-config --global developer_mode 1
+2024-05-20 10:28:54,713 INFO /home/fong/.local/bin/bench start
+2024-05-20 10:28:54,873 INFO /home/fong/.local/bin/bench watch
+2024-05-20 10:28:54,874 INFO /home/fong/.local/bin/bench worker
+2024-05-20 10:28:54,898 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-20 10:28:54,899 INFO /home/fong/.local/bin/bench schedule
+2024-05-20 12:00:01,163 INFO /home/fong/.local/bin/bench --verbose --site all backup
+2024-05-20 15:48:19,281 INFO /home/fong/.local/bin/bench find .
+2024-05-20 15:48:19,579 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-20 15:50:46,672 INFO /home/fong/.local/bin/bench new-app library_management
+2024-05-20 15:50:46,675 LOG creating new app library_management
+2024-05-20 15:56:14,788 LOG Installing library_management
+2024-05-20 15:56:14,788 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/library_management 
+2024-05-20 15:56:16,328 DEBUG bench build --app library_management
+2024-05-20 15:56:16,391 INFO /home/fong/.local/bin/bench build --app library_management
+2024-05-20 15:56:17,238 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-20 15:56:17,500 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-20 16:00:36,412 INFO /home/fong/.local/bin/bench new-site library.localhost
+2024-05-20 16:05:18,935 INFO /home/fong/.local/bin/bench --site library.localhost add-to-hosts
+2024-05-20 16:05:55,097 INFO /home/fong/.local/bin/bench start
+2024-05-20 16:05:55,272 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-20 16:05:55,285 INFO /home/fong/.local/bin/bench schedule
+2024-05-20 16:05:55,285 INFO /home/fong/.local/bin/bench watch
+2024-05-20 16:05:55,288 INFO /home/fong/.local/bin/bench worker
+2024-05-20 16:11:18,932 INFO /home/fong/.local/bin/bench --site library.localhost install-app library_management
+2024-05-20 16:11:32,292 INFO /home/fong/.local/bin/bench --site library.localhost list-apps
+2024-05-20 16:13:52,963 INFO /home/fong/.local/bin/bench --site library.localhost console
+2024-05-20 16:20:51,005 INFO /home/fong/.local/bin/bench set-config -g developer_mode true
+2024-05-20 16:50:31,069 INFO /home/fong/.local/bin/bench --site library.localhost mariadb
+2024-05-20 16:53:53,909 INFO /home/fong/.local/bin/bench --site library.localhost mariadb
+2024-05-21 08:19:15,788 INFO /home/fong/.local/bin/bench --site library.localhost mariadb
+2024-05-21 08:19:39,393 INFO /home/fong/.local/bin/bench --site library.localhost mariadb
+2024-05-21 08:20:54,219 INFO /home/fong/.local/bin/bench start
+2024-05-21 08:20:54,408 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-21 08:20:54,410 INFO /home/fong/.local/bin/bench worker
+2024-05-21 08:20:54,410 INFO /home/fong/.local/bin/bench watch
+2024-05-21 08:20:54,424 INFO /home/fong/.local/bin/bench schedule
+2024-05-21 08:27:53,204 INFO /home/fong/.local/bin/bench --site library.localhost mariadb
+2024-05-21 12:00:01,994 INFO /home/fong/.local/bin/bench --verbose --site all backup
+2024-05-22 08:20:20,371 INFO /home/fong/.local/bin/bench start
+2024-05-22 08:20:20,529 INFO /home/fong/.local/bin/bench schedule
+2024-05-22 08:20:20,529 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-22 08:20:20,537 INFO /home/fong/.local/bin/bench watch
+2024-05-22 08:20:20,548 INFO /home/fong/.local/bin/bench worker
+2024-05-22 08:22:19,829 INFO /home/fong/.local/bin/bench new-site actions.localhost
+2024-05-22 08:31:59,295 INFO /home/fong/.local/bin/bench new-app frappe_actions
+2024-05-22 08:31:59,297 LOG creating new app frappe_actions
+2024-05-22 08:32:27,025 LOG Installing frappe_actions
+2024-05-22 08:32:27,026 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/frappe_actions 
+2024-05-22 08:32:28,734 DEBUG bench build --app frappe_actions
+2024-05-22 08:32:28,797 INFO /home/fong/.local/bin/bench build --app frappe_actions
+2024-05-22 08:32:29,639 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-22 08:32:30,006 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-22 08:33:55,535 INFO /home/fong/.local/bin/bench --site actions.localhost install-app frappe_actions
+2024-05-22 08:34:04,796 INFO /home/fong/.local/bin/bench start
+2024-05-22 08:34:04,950 INFO /home/fong/.local/bin/bench watch
+2024-05-22 08:34:04,955 INFO /home/fong/.local/bin/bench worker
+2024-05-22 08:34:04,977 INFO /home/fong/.local/bin/bench schedule
+2024-05-22 08:34:04,980 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-22 09:12:45,339 INFO /home/fong/.local/bin/bench get-app https://github.com/NagariaHussain/doppio
+2024-05-22 09:12:45,344 LOG Getting doppio
+2024-05-22 09:12:45,344 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2024-05-22 09:12:46,711 LOG Installing doppio
+2024-05-22 09:12:46,711 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/doppio 
+2024-05-22 09:12:47,932 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/doppio && yarn install --check-files
+2024-05-22 09:12:49,404 DEBUG bench build --app doppio
+2024-05-22 09:12:49,473 INFO /home/fong/.local/bin/bench build --app doppio
+2024-05-22 09:12:50,385 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-22 09:12:50,673 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-22 09:20:19,572 INFO /home/fong/.local/bin/bench add-frappe-ui
+2024-05-22 09:29:37,471 INFO /home/fong/.local/bin/bench --site actions.localhost set-config ignore_csrf 1
+2024-05-22 10:33:29,372 INFO /home/fong/.local/bin/bench start
+2024-05-22 10:33:29,561 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-22 10:33:29,562 INFO /home/fong/.local/bin/bench watch
+2024-05-22 10:33:29,585 INFO /home/fong/.local/bin/bench worker
+2024-05-22 10:33:29,586 INFO /home/fong/.local/bin/bench schedule
+2024-05-22 10:37:55,079 INFO /home/fong/.local/bin/bench start
+2024-05-22 10:37:55,247 INFO /home/fong/.local/bin/bench schedule
+2024-05-22 10:37:55,247 INFO /home/fong/.local/bin/bench watch
+2024-05-22 10:37:55,271 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-22 10:37:55,276 INFO /home/fong/.local/bin/bench worker
+2024-05-22 10:38:57,518 INFO /home/fong/.local/bin/bench add-frappe-ui
+2024-05-22 10:46:44,858 INFO /home/fong/.local/bin/bench add-frappe-ui
+2024-05-22 10:52:48,888 INFO /home/fong/.local/bin/bench --site actions.localhost set-config ignore_csrf 1
+2024-05-22 12:00:02,003 INFO /home/fong/.local/bin/bench --verbose --site all backup
+2024-05-22 14:09:14,319 INFO /home/fong/.local/bin/bench new-app appointments_app
+2024-05-22 14:09:14,325 LOG creating new app appointments_app
+2024-05-22 14:09:52,438 LOG Installing appointments_app
+2024-05-22 14:09:52,438 DEBUG cd /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench && /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/env/bin/python -m pip install --quiet --upgrade -e /home/fong/Downloads/responsive-image-slider-html-css-javascript/bench-traning/programing_bench/apps/appointments_app 
+2024-05-22 14:09:54,156 DEBUG bench build --app appointments_app
+2024-05-22 14:09:54,218 INFO /home/fong/.local/bin/bench build --app appointments_app
+2024-05-22 14:09:55,392 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-05-22 14:09:55,759 INFO A newer version of bench is available: 5.22.3 → 5.22.6
+2024-05-22 14:11:56,988 INFO /home/fong/.local/bin/bench new-site appointments.local
+2024-05-22 14:13:24,152 INFO /home/fong/.local/bin/bench start
+2024-05-22 14:13:24,427 INFO /home/fong/.local/bin/bench schedule
+2024-05-22 14:13:24,429 INFO /home/fong/.local/bin/bench serve --port 8000
+2024-05-22 14:13:24,431 INFO /home/fong/.local/bin/bench watch
+2024-05-22 14:13:24,441 INFO /home/fong/.local/bin/bench worker
+2024-05-22 14:15:38,551 INFO /home/fong/.local/bin/bench --site appointments.local install-app appointments-app
+2024-05-22 14:16:11,478 INFO /home/fong/.local/bin/bench --site appointments.local install-app appointments_app
+2024-05-22 14:17:11,205 INFO /home/fong/.local/bin/bench browse appointments.local --user Administrator
+2024-05-22 14:19:10,291 INFO /home/fong/.local/bin/bench --site appointments.local add-to-hosts
